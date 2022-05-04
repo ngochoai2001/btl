@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:background="@drawable/custom_hoadon"
+android:layout_margin="15dp"
+android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hóa Đơn"
+    android:textColor="@color/black"
+    android:textSize="40dp"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-condensed"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:drawableRight="@drawable/ic_hoadon_24"
+    android:drawableLeft="@drawable/ic_money_24"
+    android:drawablePadding="8dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ tên :"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tenTrongDSHD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Đào Quang Huy"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại :"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/dienThoaiTrongDSHD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0916329702"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ nhận hàng :"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/diaChiTrongDSHD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tân Hội"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Danh sách hàng :"
+    android:textColor="@color/black"
+    android:textSize="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ListView
+        android:layout_margin="15dp"
+        android:id="@+id/rcvTrongDSHD"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginBottom="70dp">
+    </ListView>
+
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/ngayMuaTrongDSHD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Ngày mua: 13:15:15 18/04/2001"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/black"
+            android:layout_gravity="end"
+            android:layout_marginTop="18dp"/>
+        <TextView
+            android:id="@+id/tongTienTrongDSHD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_selected_bottom_nav"
+            android:textSize="25dp"
+            android:text="Tổng : 20,000,000 đ"
+            android:layout_marginRight="25dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</LinearLayout>
+

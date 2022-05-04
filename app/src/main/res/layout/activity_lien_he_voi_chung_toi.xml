@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activiti.Profile.LienHeVoiChungToi"
+    android:background="@drawable/backmainblur"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#99FFFFFF"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btnBackLienHe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_24"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liên hệ với chúng tôi"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_toEndOf="@+id/btnBackLienHe"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_diachicuahang"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_sdt"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_phonee_24"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_email"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_lienhevoichungtoi_chemgio"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/chamsockhachhang"
+        android:layout_margin="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_lienhevoichungtoi_lienhe"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <ImageView
+            android:id="@+id/logoFaceBook"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logofacebook"/>
+        <ImageView
+            android:id="@+id/logoYoutube"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logoyoutube"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/logoInSta"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logoinstaram"/>
+        <ImageView
+            android:id="@+id/logoWebsite"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logowebsite"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

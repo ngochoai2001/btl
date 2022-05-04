@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activiti.ChiTietSanPham"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBarChiTietSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#B3151414"
+        app:title="Chi tiết sản phẩm"
+        app:titleTextColor="@color/white">
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/fgChiTietSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="200dp"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/chitietAnhSP"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="25dp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/chitietTenSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="18dp"
+                android:textColor="@color/black"/>
+            <ImageButton
+                android:id="@+id/btnThemVaoDSYThich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_tym"
+                android:background="@null"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/chitietGiaSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 lượt mua"
+                android:textSize="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/ic_chitietsanpham_luotmua_24"
+                android:drawablePadding="5dp" />
+            <RatingBar
+                android:rating="4.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="15dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chi tiết sản phẩm"
+            android:textSize="23dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black" />
+        <ScrollView
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Là chiếc điện thoại iPhone có mức giá dễ chịu, phù hợp với nhiều khách hàng hơn, iPhone Xr vẫn được ưu ái trang bị chip Apple A12 mạnh mẽ, màn hình tai thỏ cùng khả năng chống nước chống bụi."
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/red"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp">
+        <TextView
+            android:id="@+id/tvSL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lượng mua : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:id="@+id/btnDown"
+            android:layout_toEndOf="@+id/tvSL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic__down_24"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:id="@+id/tvSoLuong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_toEndOf="@+id/btnDown"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/btnUp"
+            android:layout_toEndOf="@+id/tvSoLuong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic__up_24"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#B3151414"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnThemVaoGio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Thêm vào giỏ"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnMuaHang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Mua hàng"
+            android:textAllCaps="false"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</RelativeLayout>

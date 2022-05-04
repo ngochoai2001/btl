@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">NguyenDaoQuangHuy</string>
+
+    <!-- LogIn -->
+    <string name="login_dangnhap">Đăng Nhập</string>
+    <string name="login_dangki">Đăng Kí Tài Khoản</string>
+    <string name="login_luudangnhap">Lưu đăng nhập</string>
+    <string name="login_quenmatkhau">Quên mật khẩu ?</string>
+    <string name="login_user">Email</string>
+    <string name="login_password">Password</string>
+
+    <!-- MainChinh -->
+    <string name="main_xemtatca">Xem tất cả ></string>
+    <string name="main_sanphamhot">Sản phẩm HOT</string>
+    <string name="main_sanphammoinhhat">Sản phẩm mới nhất</string>
+    <string name="main_mayanh">Máy Ảnh</string>
+    <string name="main_ongkinh">Ống Kính</string>
+    <string name="main_timkiem">Tìm kiếm</string>
+
+    <!-- Profile -->
+    <string name="profile_choxacnhan">Chờ xác nhận</string>
+    <string name="profile_danggiaohang">Đang giao hàng</string>
+    <string name="profile_dangxuat">Đăng Xuất</string>
+    <string name="profile_damua">Những đơn đã mua</string>
+    <string name="profile_suathongtin">Sửa thông tin</string>
+    <string name="profile_caidat">Cài đặt</string>
+    <string name="profile_yeuthich">Yêu thích</string>
+    <string name="profile_doimatkhau">Đổi mật khẩu</string>
+    <string name="profile_lienhevoichungtoi">Liên hệ với chúng tôi</string>
+    <string name="profile_thongTinCuaHang">Địa chỉ cửa hàng</string>
+    <string name="profile_diaChiCuaHang">CS 1 : 110 - Phố Nhổn - Hà Nội</string>
+    <string name="profile_diaChiCuaHang2">CS 2 : 24 - Tân Hội - Hà Nội</string>
+    <string name="profile_diaChiCuaHang3">CS 3 : 67 - Hoàn Kiếm - Hà Nội</string>
+    <string name="profile_sdt">Hotline: 0968921551</string>
+    <string name="profile_email">Email: ngoclanhb21@gmail.com</string>
+    <string name="profile_lienhevoichungtoi_lienhe">Bạn có thể liên hệ với chúng tôi theo :</string>
+    <string name="profile_lienhevoichungtoi_chemgio">Đội ngũ hỗ trợ khách hàng phục vụ 24/7 để đem lại cho khách hàng trải nghiệm tốt nhất !</string>
+
+    <!-- ChangePassword -->
+    <string name="change_password_old">Mật khẩu cũ</string>
+    <string name="change_password_matkhaumoi">Mật khẩu mới</string>
+    <string name="change_password_matkhaumoi2">Nhập lại mật khẩu mới</string>
+
+    <!-- SuaThongTin -->
+    <string name="change_infor_name">Tên mới</string>
+    <string name="change_infor_phone">Số điện thoại mới</string>
+    <string name="change_infor_adress">Địa chỉ mới</string>
+    <string name="title_activity_dia_chi_cua_hang">Map</string>
+
+</resources>

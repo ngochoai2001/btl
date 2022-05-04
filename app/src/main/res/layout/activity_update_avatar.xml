@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activiti.Profile.UpdateAvatar"
+    android:background="@drawable/backmainblur"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#99FFFFFF"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btnBackAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_24"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đổi ảnh đại diện"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_toEndOf="@+id/btnBackAvatar"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ciChangeAvatar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/avatardefult1"
+            android:background="@drawable/profile_custom_avatar"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click để chọn ảnh"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="260dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnXacNhanDoiAnh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận "
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="150dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
