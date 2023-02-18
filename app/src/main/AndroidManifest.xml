@@ -15,7 +15,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon_app"
-        android:label="Huy Beo Camera"
+        android:label="Camera"
         android:roundIcon="@drawable/icon_app"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
