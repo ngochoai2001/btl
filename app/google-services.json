@@ -1,33 +1,79 @@
 {
   "project_info": {
-    "project_number": "1020241159766",
-    "project_id": "huybeocamera",
-    "storage_bucket": "huybeocamera.appspot.com"
+    "project_number": "223761878338",
+    "firebase_url": "https://vernal-house-381603-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "vernal-house-381603",
+    "storage_bucket": "vernal-house-381603.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1020241159766:android:399d0713c725947312fdf7",
+        "mobilesdk_app_id": "1:223761878338:android:508340957708a5256e8cdb",
         "android_client_info": {
-          "package_name": "com.example.projectcuoikhoa"
+          "package_name": "com.asignment.hoaigrab"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1020241159766-2r3qrcnnlmvec5qutvuv3aqrfq6u7g6k.apps.googleusercontent.com",
+          "client_id": "223761878338-n2p86ihgk9j87bfthjnmlqfs74epl2di.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asignment.hoaigrab",
+            "certificate_hash": "4b8e4248329b4bc47ec55d13f273e16bbc9fd558"
+          }
+        },
+        {
+          "client_id": "223761878338-irbtui8gv0ga9mtjtmhmf9bocn5qfln6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDmdjwcbOcck3Xo0C4AO4de-Gz-yaQY2D8"
+          "current_key": "AIzaSyCOdVBax_BnT2eL6HX1TB6waWIYW3bvYIU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1020241159766-2r3qrcnnlmvec5qutvuv3aqrfq6u7g6k.apps.googleusercontent.com",
+              "client_id": "223761878338-1nifdva1fubedcf8ogh2ijiucs0ej597.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223761878338:android:65c6e2c9d1865c886e8cdb",
+        "android_client_info": {
+          "package_name": "com.example.btl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223761878338-rc7eemj1bigvk2c13ums9386r3pbidfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.btl",
+            "certificate_hash": "bb1f9eb59f14c56233da40c3aae47ae26b9472e8"
+          }
+        },
+        {
+          "client_id": "223761878338-irbtui8gv0ga9mtjtmhmf9bocn5qfln6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOdVBax_BnT2eL6HX1TB6waWIYW3bvYIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223761878338-1nifdva1fubedcf8ogh2ijiucs0ej597.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

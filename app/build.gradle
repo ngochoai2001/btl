@@ -4,14 +4,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
-    
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.projectcuoikhoa"
+        applicationId "com.example.btl"
         minSdkVersion 30
-        targetSdkVersion 30
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -23,6 +21,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+    buildFeatures {
+        viewBinding true
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

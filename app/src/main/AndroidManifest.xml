@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.projectcuoikhoa">
+    package="com.example.btl">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the "MyLocation" functionality.
     -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -19,11 +19,10 @@
         android:roundIcon="@drawable/icon_app"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
-        <activity android:name="activiti.Profile.LienHeVoiChungToi"></activity>
-        <activity android:name="activiti.Profile.Setting" />
-        <activity android:name="activiti.Profile.UpdateAvatar" />
-        <activity android:name="activiti.LogIn" />
-        <activity android:name="fragment.FragmentSearch" />
+        <activity android:name="com.example.btl.activiti.Profile.LienHeVoiChungToi"></activity>
+        <activity android:name="com.example.btl.activiti.Profile.Setting" />
+        <activity android:name="com.example.btl.activiti.Profile.UpdateAvatar" />
+        <activity android:name="com.example.btl.activiti.LoginActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -32,54 +31,54 @@
              sign the APK for publishing.
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".DiaChiCuaHang"
+            android:name="com.example.btl.activiti.ShopAddress"
             android:label="@string/title_activity_dia_chi_cua_hang" />
         <activity
-            android:name="activiti.LoaiSanPham.SanPhamHot"
+            android:name="com.example.btl.activiti.LoaiSanPham.SanPhamHot"
             android:label="Sản phẩm HOT"
-            android:parentActivityName="activiti.MainActivity" />
-        <activity android:name="activiti.VanDeVeLogIn.HoaDon" />
-        <activity android:name="activiti.Profile.DonHangDaMua" />
-        <activity android:name="activiti.Profile.SuaThongTin" />
-        <activity android:name="activiti.Profile.DanhSachYeuThich" />
+            android:parentActivityName="com.example.btl.activiti.MainActivity" />
+        <activity android:name="com.example.btl.activiti.VanDeVeLogIn.HoaDon" />
+        <activity android:name="com.example.btl.activiti.Profile.DonHangDaMua" />
+        <activity android:name="com.example.btl.activiti.Profile.SuaThongTin" />
+        <activity android:name="com.example.btl.activiti.Profile.DanhSachYeuThich" />
         <activity
-            android:name="activiti.VanDeVeLogIn.ResetPassword"
-            android:parentActivityName="activiti.LogIn" />
-        <activity android:name="activiti.Profile.ChangePassword" />
+            android:name="com.example.btl.activiti.VanDeVeLogIn.ResetPassword"
+            android:parentActivityName="com.example.btl.activiti.LoginActivity" />
+        <activity android:name="com.example.btl.activiti.Profile.ChangePassword" />
         <activity
-            android:name="activiti.ChiTietSanPham"
-            android:parentActivityName="activiti.MainActivity" />
+            android:name="com.example.btl.activiti.ProductDetail"
+            android:parentActivityName="com.example.btl.activiti.MainActivity" />
         <activity
-            android:name="activiti.OngKinh"
+            android:name="com.example.btl.activiti.OngKinh"
             android:label="Ống kính"
-            android:parentActivityName="activiti.MainActivity" />
-        <activity android:name="fragment.Fragment_Home" />
+            android:parentActivityName="com.example.btl.activiti.MainActivity" />
         <activity
-            android:name="activiti.LoaiSanPham.SanPhamMoiNhat"
+            android:name="com.example.btl.activiti.LoaiSanPham.SanPhamMoiNhat"
             android:label="Sản phẩm mới nhất"
-            android:parentActivityName="activiti.MainActivity" />
+            android:parentActivityName="com.example.btl.activiti.MainActivity" />
         <activity
-            android:name="activiti.MayAnh"
+            android:name="com.example.btl.activiti.MayAnh"
             android:label="Máy ảnh"
-            android:parentActivityName="activiti.MainActivity" />
+            android:parentActivityName="com.example.btl.activiti.MainActivity" />
         <activity
-            android:name="activiti.Cart"
+            android:name="com.example.btl.activiti.CartActivity"
             android:label="Giỏ hàng"
-            android:parentActivityName="activiti.MainActivity" />
-        <activity android:name="activiti.DangKi" />
-        <activity android:name="activiti.SplashActivity">
+            android:parentActivityName="com.example.btl.activiti.MainActivity" />
+        <activity android:name="com.example.btl.activiti.RegisterActivity" />
+        <activity android:name="com.example.btl.activiti.SplashActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="activiti.MainActivity" />
+        <activity android:name="com.example.btl.activiti.MainActivity" />
     </application>
 
 </manifest>

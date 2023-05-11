@@ -5,7 +5,7 @@
           android:icon="@drawable/icon_heart_menu"
           android:title="Danh sách yêu thích"
           app:showAsAction="always"/>
-      <item android:id="@+id/gioHang"
+      <item android:id="@+id/cart"
           android:icon="@drawable/ic_cart_24"
           android:title="Giỏ hàng"
           app:showAsAction="always" />

@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "ProjectCuoiKhoa"
+rootProject.name = "BTL_Android"
